@@ -1,0 +1,125 @@
+\documentclass[14pt, oneside]{altsu-report}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\addbibresource{graduate-students.bib}
+
+\worktype{Разработка игры <<Морской бой>> на Python}
+\title{Курсовая работа (2 курс)}
+\author{Д.\,А.~Комягин}
+\groupnumber{5.205-2}
+\GradebookNumber{1337}
+\supervisor{И.\,А.~Шмаков}
+\supervisordegree{ст. преп. каф. ВТ и Э}
+\ministry{Министерство науки и высшего образования}
+\country{Российской Федерации}
+\fulluniversityname{ФГБОУ ВО Алтайский государственный университет}
+\institute{Институт цифровых технологий, электроники и физики}
+\department{Кафедра вычислительной техники и электроники}
+\shortdepartment{ВТиЭ}
+\abstractRU{КЛЮЧЕВЫЕ СЛОВА. ******}
+
+\keysRU{Целью курсовой работы является разработка функциональной и интерактивной игры <<Морской бой>> на Python с использованием библиотеки wxPython, а также применение знаний и навыков программирования на Python для создания графического интерфейса пользователя, игровой логики и искусственного интеллекта.}
+
+
+\date{\the\year}
+
+% Подключение файлов с библиотекой.
+\addbibresource{graduate-students.bib}
+
+% Пакет для отладки отступов.
+%\usepackage{showframe}
+
+\begin{document}
+\maketitle
+
+\setcounter{page}{2}
+\makeabstract
+\tableofcontents
+
+\chapter*{Введение}
+\phantomsection\addcontentsline{toc}{chapter}{ВВЕДЕНИЕ}
+
+\textbf{Актуальность:}
+\begin{itemize}
+\item популяризация программирования: изучение Python и wxPython способствует развитию навыков программирования, логического мышления и алгоритмизации;
+\item развитие игровой индустрии: создание игр – востребованное направление в IT-сфере;
+\item доступность инструментов: Python и wxPython – бесплатные и легкодоступные инструменты для разработки игр.
+\end{itemize}
+
+\textbf{Цель}
+
+Разработать функциональную и интерактивную игру <<Морской бой>> на Python с использованием библиотеки wxPython, используя при этом:
+\begin{itemize}
+\item знания и навыки программирования на Python;
+\item методы разработки графического интерфейса пользователя;
+\item алгоритмы игровой логики и искусственного интеллекта.
+\end{itemize}
+
+\textbf{Задачи:}
+
+\begin{itemize}
+\item изучить различные варианты реализации игры <<Морской бой>>;
+\item создать удобный и интуитивно понятный интерфейс для игры, используя элементы управления wxPython;
+\item создать алгоритм для игры компьютера;
+\item реализовать несколько режимов игры;
+\item реализовать алгоритмы игрового процесса, включая:
+\begin{itemize}
+    \item размещение кораблей;
+    \item выстрелы;
+    \item определение победителя.
+\end{itemize}
+\end{itemize}
+
+\textbf{Практическая значимость:}
+\begin{itemize}
+\item развитие навыков: Работа над проектом позволит развить навыки программирования, проектирования интерфейсов, тестирования и отладки;
+\item создание готового продукта: Результатом работы станет функциональная игра, которую можно использовать для развлечения или в учебных целях;
+\item возможность применения: Полученные навыки могут быть применены для разработки других игр или программных решений;
+\end{itemize}
+
+\textbf{Обзор специальной литературы:}
+\begin{enumerate}
+\item <<Самоучитель Python>> (Д. Мусин)
+\begin{itemize}
+    \item подробное описание языка Python;
+    \item подходит для начинающих;
+    \item не содержит информации о wxPython.
+\end{itemize}
+\item <<WxPython - краткий курс обучения>> (М. Марес)
+    \begin{itemize}
+        \item подробное описание библиотеки wxPython;
+        \item примеры кода для создания графических интерфейсов;
+        \item содержит информации о разработке игр.
+    \end{itemize}
+\end{enumerate}
+
+% Подключение основной части (теория):
+\include{chapter-1-report-csae.tex}
+% Подключение второй главы (практическая часть):
+\include{chapter-2-report-csae.tex}
+% Подключение третий главы (практическая часть с тестированием:
+
+\chapter*{Заключение}
+\addcontentsline{toc}{chapter}{Заключение}
+
+\newpage
+\phantomsection\addcontentsline{toc}{chapter}{Список использованной литературы}
+\printbibliography[title={Список использованной литературы}]
+\nocite{*}
+
+\appendix
+\newpage
+\chapter*{\raggedleft\label{appendix1}Приложение}
+\phantomsection\addcontentsline{toc}{chapter}{ПРИЛОЖЕНИЕ}
+%\section*{\centering\label{code:appendix}Текст программы}
+
+\begin{center}
+\label{code:appendix}Текст программы
+\end{center}
+
+\begin{code}
+код***
+\end{code}
+
+\end{document}
+
