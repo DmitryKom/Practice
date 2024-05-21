@@ -396,7 +396,7 @@
   \begin{center}
     РЕФЕРАТ
   \end{center}
-
+  
     \textrm\textrm{Объем работы листов \hfill \total{TotPages}}
     
     \textrm\textrm{Количество рисунков \hfill \total {totalcount@figure}}
@@ -407,11 +407,11 @@
   
   \@keysRU
   
-  \text{Методы исследования:}
-\begin{enumerate}
-\item Изучение документации по библиотеке wxPython для разработки графического интерфейса.
-\item Разработка алгоритмов игровой логики и искусственного интеллекта.
-\end{enumerate}
+%   \text{Методы исследования:}
+% \begin{enumerate}
+% \item Изучение документации по библиотеке wxPython для разработки графического интерфейса.
+% \item Разработка алгоритмов игровой логики и искусственного интеллекта.
+% \end{enumerate}
 }
 
 \endinput
