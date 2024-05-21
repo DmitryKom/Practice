@@ -402,10 +402,13 @@
     \textrm\textrm{Количество рисунков \hfill \total {totalcount@figure}}
     
     \textrm\textrm{Количество таблиц \hfill \total {totalcount@table}}
+    
+  \@keysRU
   
   \@abstractRU
   
-  \@keysRU
+  Отчёт оформлен с помощью системы компьютерной вёрстки \TeX{} и его расширения \XeTeX{} 
+  из дистрибутива \textit{TeX Live}.
   
 %   \text{Методы исследования:}
 % \begin{enumerate}
